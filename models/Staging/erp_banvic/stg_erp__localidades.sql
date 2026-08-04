@@ -9,9 +9,9 @@ with
   ,renomeado as (
 
     SELECT 
-        COD_LOCALIDADE as pk_localidade
-        ,CAST(CIDADE as string) as cidade
-        ,CAST(UF as string) as UF
+        cod_localidade as pk_localidade
+        ,CAST(cidade as string) as cidade
+        ,CAST(uf as string) as UF
     FROM fonte_localidades
 
 )
