@@ -15,5 +15,8 @@ sources:
       
       - name: agencias
         description: Tabela fonte de agencias com informação de cidade e estado.
+      - name: contas
+        description: Tabela fonte de contas com informação de agencia,cliente,colaborador.
+    
 
     
