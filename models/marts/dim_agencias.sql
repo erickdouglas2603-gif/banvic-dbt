@@ -1,6 +1,6 @@
 with    
-    colaboradores as(
-        select * from {{ ref('int_dimensao_colaboradores') }}
+    agencias as(
+        select * from {{ ref('int_dimensao_agencias') }}
     )
 
-select * from colaboradores
+select * from agencias
