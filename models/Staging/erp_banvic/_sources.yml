@@ -43,6 +43,19 @@ sources:
               
       - name: contas
         description: Tabela fonte de contas com informação de agencia,cliente,colaborador.
+
+      - name: colaborador_agencia
+        data_tests:
+          - dbt_utils.unique_combination_of_columns:
+              arguments: 
+                combination_of_columns:
+                  - cod_colaborador
+                  - cod_agencia
+      
+      - name: transacoes
+        description: Tabela fonte  fact transacoes.
+      
+      
     
 
     

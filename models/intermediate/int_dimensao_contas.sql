@@ -27,6 +27,9 @@ with contas as (
 , contas_enriquecido as(
      select 
          contas.pk_conta
+         , contas.fk_agencia
+         , contas.fk_cliente
+         , contas.fk_colaborador
          , contas.tipo_conta
          , contas.data_abertura_conta
          , contas.data_ultimo_lancamento
