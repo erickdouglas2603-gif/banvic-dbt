@@ -51,6 +51,11 @@ sources:
                 combination_of_columns:
                   - cod_colaborador
                   - cod_agencia
+      
+      - name: transacoes
+        description: Tabela fonte  fact transacoes.
+      
+      
     
 
     
