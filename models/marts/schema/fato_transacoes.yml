@@ -1,5 +1,5 @@
 models:
-  - name: fct_transacoes
+  - name: fato_transacoes
     description: Fato que consolida as transações financeiras realizadas em contas, enriquecida com informações de cliente, agência, colaborador e data.
 
     columns:
