@@ -13,3 +13,4 @@ with
 select *
 from soma_transacoes_2018
 where ano = 2018
+      and total != 822808.44
